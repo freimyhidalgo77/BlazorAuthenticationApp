@@ -2,7 +2,7 @@
 
 @using Microsoft.AspNetCore.Authorization
 
-@attribute [Authorize (Roles = "Admin")]
+@attribute [Authorize(Roles = "Admin,Freimy123")]
 
 <PageTitle>Auth</PageTitle>
 
@@ -13,6 +13,3 @@
 </AuthorizeView>
 
 
-<AuthorizeView Roles="Admin"> 
-    You are an admin!! Congratulations!!
-</AuthorizeView>
